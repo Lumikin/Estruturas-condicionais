@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Atividade 3"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 01:06:56 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTjFOVEI3NzQ7MjAyNS0wNC0wNzsiMTI6NTk6MDYgIjsyNjM5"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTjFOVEI3NzQ7MjAyNS0wNC0wNzsiMDE6MDY6NTYgIjsxOzI3NDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="par, numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Espressa o numero par&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero %2==0">
+                <then>
+                    <output expression="&quot;esse numero &#233; par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;esse numero n&#227;o &#233; par&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

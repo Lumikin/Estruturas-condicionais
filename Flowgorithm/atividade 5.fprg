@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="atividade 5"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 02:37:53 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTjFOVEI3NzQ7MjAyNS0wNC0wNzsiMDE6Mjc6NTggIjsyNjM5"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTjFOVEI3NzQ7MjAyNS0wNC0wNzsiMDI6Mzc6NTMgIjsxOzI3NDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Real" array="False" size=""/>
+            <output expression="&quot;insira o valor&quot;" newline="True"/>
+            <input variable="valor"/>
+            <if expression="valor % 5 = 0">
+                <then>
+                    <output expression="&quot;o numero &#233; multiplico de 5&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O numero n&#227;o &#233; multiplo de 5&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
